@@ -79,15 +79,13 @@ export const robox = (boxElementClassName, name, stageWidth, stageHeight) => {
             Nu bentter vi X og Y værdierne til placere vores boks.
             
             Vi sætter boksens style element left og top til x og y. 
-            Vi putter 'px' på for at angive pixels.
-
-            Tilsidst udskriver vi som html.
+            Vi sætter 'px' på for at angive pixels.
 
         */
 
         boxElement.style.left = x + 'px';
         boxElement.style.top = y + 'px';
-        boxElement.innerHTML = `x: ${x} y: ${y}`;
+    
 
     };
 

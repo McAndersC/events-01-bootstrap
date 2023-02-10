@@ -21,20 +21,25 @@ export const debug = () => {
         width = e.target.innerWidth;
         height = e.target.innerHeight;
 
+   
         if(width < 727)
         {
+            // Hvis vi ikker over 727 så er vi i "SMALL""
             breakPoint = 'SMALL';
 
         } else if (width > 728 && width < 1023) {
 
+            // Hvis vi ikker over 727 og vi er under 1023 så er vi i "MEDIUM"
             breakPoint = 'MEDIUM';
 
         } else if (width > 1024) {
 
+            // Alt over 1024 er "LARGE" 
             breakPoint = 'LARGE';
 
         }
 
+        // Ud skriver i debuggeren Breakpoint, bredde og højde.
         debuggerMessage.innerHTML = `Breakpoint: ${breakPoint} Width: ${width}, Height: ${height}`;
 
     });
