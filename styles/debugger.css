@@ -1,0 +1,36 @@
+.debugger {
+
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    bottom: 0;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+    padding: 0 20px;
+    width: 100%;
+
+}
+
+@media (min-width: 728px) {
+
+    .debugger {
+
+        background-color: green;
+
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .debugger {
+
+        background-color: yellow;
+        color: #000;
+
+    } 
+
+}

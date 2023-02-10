@@ -1,0 +1,24 @@
+.robox {
+    
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+    color: #fff;
+
+    user-select: none;
+    
+    width: 100px;
+    
+    aspect-ratio: 1/1;
+
+    left: 0px;
+    top: 0px;
+
+    /* overflow: hidden; */
+    /* transition: all;
+    transition-duration: 500ms; */
+
+}

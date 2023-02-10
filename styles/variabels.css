@@ -1,0 +1,15 @@
+html {
+    
+    --body-color: hsl(217, 47%, 47%);
+    --body-text-color:  hsl(0, 0%, 100%);
+
+    --toast-bg-color: #d6d6ca;
+    --toast-text-color: #000;
+
+}
+  
+html[data-theme='dark'] {
+
+    --body-color: hsl(217, 77%, 17%);
+    --body-text-color: hsl(0, 0%, 65%);
+}

@@ -1,0 +1,38 @@
+@import url('./variabels.css');
+@import url('./toaster.css');
+@import url('./robox.css');
+@import url('./controls.css');
+@import url('./debugger.css');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: var(--body-color);
+    color: var(--body-text-color);
+    transition: background-color;
+    transition-duration: 1s;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+
+    Vo scene/stage til at bevæge vore boks.
+
+*/
+.stage {
+
+    width: 800px;
+    height: 250px;
+    margin: 50px auto;
+    background-color: #fff;
+    position: relative;
+    padding: 0 40px;
+
+}
+
+

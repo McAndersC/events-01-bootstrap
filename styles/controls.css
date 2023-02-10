@@ -1,0 +1,23 @@
+.controls {
+
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.controls .btn {
+    padding: 10px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    user-select: none;
+    cursor: pointer;
+}
+
+.controls .btn:hover {
+
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.7);
+    
+}
